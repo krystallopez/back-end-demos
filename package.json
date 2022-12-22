@@ -17,6 +17,6 @@
     "sqlite3": "5.0.8"
   },
   "devDependencies": {
-    "nodemon": "2.0.16"
+    "nodemon": "^2.0.16"
   }
 }

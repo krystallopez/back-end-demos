@@ -5,7 +5,7 @@ const { dogs } = require('./seedData');
 const seed = async () => {
   await sequelize.sync({ force: true }); // recreate db
   await Dog.bulkCreate(dogs);
-};
+}; 
 
 seed()
   .then(() => {
